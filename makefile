@@ -1,4 +1,5 @@
 LDLIBS += -lpcap
+LDLIBS += -lnet
 
 all: pcap-test
 
